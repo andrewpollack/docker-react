@@ -12,4 +12,4 @@ FROM nginx:alpine
 # Copy from 0th phase
 COPY --from=0 /app/build /usr/share/nginx/html
 
-# nginx handles run on its own
+# nginx handles run on its own 
